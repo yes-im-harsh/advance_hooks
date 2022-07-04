@@ -1,8 +1,11 @@
+import UseRefExample1 from "./component/UseRefExample1.jsx";
+import UseRefExample2 from "./component/UseRefExample2.jsx";
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
-      <p>Learning Hooks..</p>
+      <UseRefExample1 />
+      <br />
+      <UseRefExample2 />
     </div>
   );
 }
