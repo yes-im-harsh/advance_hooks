@@ -1,17 +1,25 @@
-import UseRefExample1 from "./component/UseRefExample1.jsx";
-import UseRefExample2 from "./component/UseRefExample2.jsx";
-import UseRefExample3 from "./component/UseRefExample3.jsx";
-import UseMemoExample from "./component/UseMemoExample.jsx";
+// import UseRefExample1 from "./component/UseRefExample1.jsx";
+// import UseRefExample2 from "./component/UseRefExample2.jsx";
+// import UseRefExample3 from "./component/UseRefExample3.jsx";
+// import UseMemoExample from "./component/UseMemoExample.jsx";
+
+import CustomHookExample1 from "./component/CustomHookExample1";
+import UseCallbackExample from "./component/UseCallbackExample";
+
 function App() {
   return (
     <div className="App">
-      <UseRefExample1 />
+      {/* <UseRefExample1 /> */}
       <br />
-      <UseRefExample2 />
+      {/* <UseRefExample2 /> */}
       <br />
-      <UseRefExample3 />
+      {/* <UseRefExample3 /> */}
       <br />
-      <UseMemoExample />
+      {/* <UseMemoExample /> */}
+      <br />
+      <UseCallbackExample />
+      <br />
+      <CustomHookExample1 />
     </div>
   );
 }
