@@ -4,6 +4,7 @@
 // import UseMemoExample from "./component/UseMemoExample.jsx";
 
 import CustomHookExample1 from "./component/CustomHookExample1";
+import CustomHookExample2 from "./component/CustomHookExample2";
 import UseCallbackExample from "./component/UseCallbackExample";
 
 function App() {
@@ -17,9 +18,11 @@ function App() {
       <br />
       {/* <UseMemoExample /> */}
       <br />
-      <UseCallbackExample />
+      {/* <UseCallbackExample /> */}
       <br />
-      <CustomHookExample1 />
+      {/* <CustomHookExample1 /> */}
+      <br />
+      <CustomHookExample2 />
     </div>
   );
 }
